@@ -1,0 +1,22 @@
+{
+    "jobs": [
+        {
+            "source": "bigquery",
+            "gsheets_key": "10CBrIi_ACBY0vvKzn3_LyaP2Go6y3EwZ7gAoGThroXw",
+            "query_path": "./sql/edm_20200826_app_zhtw.sql",
+            "sheet_prefix": "edm_20200826_app_zhtw"
+        },
+        {
+            "source": "bigquery",
+            "gsheets_key": "10CBrIi_ACBY0vvKzn3_LyaP2Go6y3EwZ7gAoGThroXw",
+            "query_path": "./sql/edm_20200826_toeic_zhtw.sql",
+            "sheet_prefix": "edm_20200826_toeic_zhtw"
+        },
+        {
+            "source": "bigquery",
+            "gsheets_key": "10CBrIi_ACBY0vvKzn3_LyaP2Go6y3EwZ7gAoGThroXw",
+            "query_path": "./sql/edm_20200826_toeic_ja.sql",
+            "sheet_prefix": "edm_20200826_toeic_ja"
+        }
+    ]
+}
