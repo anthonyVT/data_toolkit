@@ -2,16 +2,22 @@
 *tool kit for data team*
 
 **step 1**
-
-- python3 -m venv {/path/to/new/virtual/environment}
+- create virtual enviroment
+- **RUN** python3 -m venv virtual
 
 **step 2**
-
-- source {/path/to/new/virtual/environment}/bin/activate
+- enter virtual enviroment
+- **RUN** source virtual/bin/activate
 
 **step 3**
+- install packages
+- **RUN** pip install -r requirements.txt
 
-- pip install -r reqirement.txt
+**step 4**
+- initialized your enviroment
+- **RUN** ./init.sh
+
+eg. google sdk is needed
 
 ### data_agent.py
 
