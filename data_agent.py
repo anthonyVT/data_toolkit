@@ -38,7 +38,7 @@ class SheetDestination:
     def __init__(self, key):
         self.key = key
         self.gs = pygsheets.authorize(
-            service_account_file=".voicetube-test-service-account.json")
+            service_account_file=".service_account.json")
         self.sh = self.gs.open_by_key(key)
 
     def create_worksheet(self, sheet_name, **kwarg):
