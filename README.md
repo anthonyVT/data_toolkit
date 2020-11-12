@@ -17,7 +17,9 @@
 - initialized your enviroment
 - **RUN** ./init.sh
 
-eg. [google sdk](https://cloud.google.com/sdk/docs/install) is needed
+pre-requisite:
+- [google sdk](https://cloud.google.com/sdk/docs/install) is needed.
+- you should reach to the project manager (currently is CTO) for the related IAM permissions.
 
 ### data_agent.py
 
@@ -28,6 +30,8 @@ eg. [google sdk](https://cloud.google.com/sdk/docs/install) is needed
 - *query_path* is the path of sql file.
 
 - *gsheets_key* is unique id of google sheet. you can find it the google sheet url.
+
+- you *must* share the google sheet to *vt-etl-agent@lithe-window-713.iam.gserviceaccount.com*
 
 - *sheet_prefix* is the prefix of worksheets.
 
