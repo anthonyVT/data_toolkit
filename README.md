@@ -17,7 +17,7 @@
 - initialized your enviroment
 - **RUN** ./init.sh
 
-eg. google sdk is needed
+eg. [google sdk](https://cloud.google.com/sdk/docs/install) is needed
 
 ### data_agent.py
 
