@@ -1,11 +1,11 @@
 # data_toolkit
 *tool kit for data team*
 
-**step 1**
+**step 1** (optional*)
 - create virtual enviroment
 - **RUN** python3 -m venv virtual
 
-**step 2**
+**step 2** (optional*)
 - enter virtual enviroment
 - **RUN** source virtual/bin/activate
 
@@ -30,3 +30,6 @@ eg. google sdk is needed
 - *gsheets_key* is unique id of google sheet. you can find it the google sheet url.
 
 - *sheet_prefix* is the prefix of worksheets.
+
+
+\*Step1 & 2 are optional.
